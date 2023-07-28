@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MainActivity 에서 실행하면서
+new LinearLayout() 객체 하나 생성
+new ListView() 객체도 생성
+그리고 그 ListView 의 id는 android:id="@+id/listView" 에서
+id = listView 가 됨
+그리고 그 id 를 findViewById(R.id.listView) 로 주소 가져옴-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputName"
+            android:hint="이름 입력.."/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="추가"
+            android:id="@+id/addBtn"/>
+    </LinearLayout>
+
+</LinearLayout>

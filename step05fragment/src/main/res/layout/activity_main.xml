@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment0"
+        android:name="com.example.step05fragment.MyFragment"
+        android:layout_width="200dp"
+        android:layout_height="218dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리셋"
+        android:id="@+id/resetBtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이동"
+        android:id="@+id/moveBtn"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragment00"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment01"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment02"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment03"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragment10"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment11"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment12"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment13"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragment20"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment21"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment22"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment23"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragment30"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment31"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment32"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <fragment
+            android:id="@+id/fragment33"
+            android:name="com.example.step05fragment.MyFragment"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
